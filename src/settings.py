@@ -46,7 +46,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
     "CAM": [255, 0, 255],
     "Vesicle": [0, 255, 255],
     "Control": [255, 165, 0],
-    "MP265": [128, 0, 128],
+    "MP265": [220, 190, 255],
 }
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
