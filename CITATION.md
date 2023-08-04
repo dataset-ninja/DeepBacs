@@ -14,4 +14,4 @@ If you make use of the DeepBacs data, please cite the following reference:
 }
 ```
 
-[🔗 Source](https://zenodo.org/record/5551057/export/hx)
+[Source](https://zenodo.org/record/5551057/export/hx)
