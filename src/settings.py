@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "DeepBacs"
+PROJECT_NAME: str = "DeepBacs E. Coli"
 PROJECT_NAME_FULL: str = (
     "DeepBacs: Escherichia coli antibiotic phenotyping object detection dataset and YOLOv2 model"
 )
@@ -23,7 +23,7 @@ PROJECT_NAME_FULL: str = (
 ##################################
 LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Research.Biomedical()]
-CATEGORY: Category = Category.Medical()
+CATEGORY: Category = Category.Medical(extra=Category.Biology())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
