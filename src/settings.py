@@ -17,6 +17,7 @@ PROJECT_NAME: str = "DeepBacs E. Coli"
 PROJECT_NAME_FULL: str = (
     "DeepBacs: Escherichia coli antibiotic phenotyping object detection dataset and YOLOv2 model"
 )
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -108,6 +109,7 @@ def get_settings():
 
     settings = {
         "project_name": PROJECT_NAME,
+        "hide_dataset": HIDE_DATASET,
         "license": LICENSE,
         "applications": APPLICATIONS,
         "category": CATEGORY,
