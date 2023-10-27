@@ -65,6 +65,8 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = "https://www.biorxiv.org/content/10.1101/2021.11.03.467152v1"
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/HenriquesLab/DeepBacs/wiki"}
+
 CITATION_URL: Optional[str] = "https://zenodo.org/record/5551057#.YlFcXn9Bzmg"
 AUTHORS: Optional[List[str]] = [
     "Christoph Spahn",
@@ -79,6 +81,7 @@ AUTHORS: Optional[List[str]] = [
     "Mike Heilemann",
     "Ricardo Henriques",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["christoph.spahn@mpi-marburg.mpg.de"]
 
 ORGANIZATION_NAME: Optional[
     Union[str, List[str]]
@@ -129,8 +132,10 @@ def get_settings():
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL
     settings["class2color"] = CLASS2COLOR
     settings["paper"] = PAPER
+    settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
