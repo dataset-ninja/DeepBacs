@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "DeepBacs E. Coli"
 PROJECT_NAME_FULL: str = (
-    "DeepBacs: Escherichia coli antibiotic phenotyping object detection dataset and YOLOv2 model"
+    "DeepBacs: Escherichia Coli Antibiotic Phenotyping Object Detection Dataset and YOLOv2 Model"
 )
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 
