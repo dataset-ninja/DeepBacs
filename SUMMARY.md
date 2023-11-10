@@ -1,4 +1,4 @@
-**DeepBacs: Escherichia coli antibiotic phenotyping object detection dataset and YOLOv2 model** is a dataset for an object detection task. It is used in the biomedical research. 
+**DeepBacs: Escherichia Coli Antibiotic Phenotyping Object Detection Dataset and YOLOv2 Model** is a dataset for an object detection task. It is used in the biomedical research. 
 
 The dataset consists of 235 images with 3564 labeled objects belonging to 8 different classes including *Oblique*, *Vesicle*, *Nalidixate*, and other: *Rifampicin*, *CAM*, *Control*, *Mecillinam*, and *MP265*.
 
