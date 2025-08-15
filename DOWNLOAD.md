@@ -1,6 +1,6 @@
 Dataset **DeepBacs E. Coli** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzExNDJfRGVlcEJhY3MgRS4gQ29saS9kZWVwYmFjcy1lLi1jb2xpLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIkdUSHFJaS9VeEFWYk02aFVMN2o2YUhQKzlzSEVQQXErRjZ0WFVyazZoREE9In0=)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMTE0Ml9EZWVwQmFjcyBFLiBDb2xpL2RlZXBiYWNzLWUuLWNvbGktRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiMm1tRnQyNklwaklnSW81ckF0N2VEOWVnL2xzNEJsaHJQQ0UzdEZpNnZtTT0ifQ==?response-content-disposition=attachment%3B%20filename%3D%22deepbacs-e.-coli-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
